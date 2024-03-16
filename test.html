@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animated Percentage Bar Chart</title>
+    <style>
+        .bar-chart {
+            width: 50%;
+            height: 30px;
+            background-color: #ccc;
+            position: relative;
+        }
+
+        .progress {
+            height: 100%;
+            background-color: #a8106e;
+            position: absolute;
+            transition: width 2s ease; /* Animation duration and easing */
+        }
+
+        .percentage-label {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="bar-chart">
+        <div class="progress" id="progressBar">Html</div>
+        <span class="percentage-label" id="percentageLabel">0%</span>
+    </div>
+    <!-- <div class="bar-chart">
+        <div class="progress" id="progressBar1">Css</div>
+        <span class="percentage-label" id="percentageLabel1">0%</span>
+    </div>
+    <div class="bar-chart">
+        <div class="progress" id="progressBar2">JavaScript</div>
+        <span class="percentage-label" id="percentageLabel2">0%</span>
+    </div>
+    <div class="bar-chart">
+        <div class="progress" id="progressBar3">Python</div>
+        <span class="percentage-label" id="percentageLabel3">0%</span>
+    </div>
+    <div class="bar-chart">
+        <div class="progress" id="progressBar4">Mysql</div>
+        <span class="percentage-label" id="percentageLabel4">0%</span>
+    </div>
+    <div class="bar-chart">
+        <div class="progress" id="progressBar5">PHP</div>
+        <span class="percentage-label" id="percentageLabel5">0%</span>
+    </div> -->
+
+    <script>
+        const progressBar = document.getElementById("progressBar");
+        const percentageLabel = document.getElementById("percentageLabel");
+
+        // Set the target percentage (change as needed)
+        const targetPercentage = 60;
+
+        // Animate the progress bar
+        const animateProgressBar = () => {
+            let currentPercentage = 0;
+            const animationDuration = 2000; // Animation duration in milliseconds
+
+            const interval = animationDuration / targetPercentage;
+
+            const intervalId = setInterval(() => {
+                currentPercentage++;
+                progressBar.style.width = currentPercentage + "%";
+                percentageLabel.textContent = currentPercentage + "%";
+
+                if (currentPercentage >= targetPercentage) {
+                    clearInterval(intervalId);
+                }
+            }, interval);
+        };
+
+        // Start the animation when the page loads
+        animateProgressBar();
+    </script>
+    
+</body>
+</html>

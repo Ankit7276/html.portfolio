@@ -1,0 +1,28 @@
+                        Front-End Developer: Front-end developers focus on creating the user interface and user
+                        experience of a website or web application. They work with HTML, CSS, and JavaScript to build
+                        the visual and interactive components that users see and interact with in their web
+                        browsers..Back-End Developer: Back-end developers are
+                            responsible for the server-side of web development. They work with server technologies,
+                            databases, and server scripting languages like PHP, Python, Ruby, or Node.js. Their role
+                            involves handling data, security, and server management.
+
+                            Full-Stack Developer: Full-stack developers are proficient in both front-end and back-end
+                            technologies. They can work on the entire web development process, from designing user
+                            interfaces to managing server databases.
+
+                            App Developer:
+
+                            Mobile App Developer: Mobile app developers create applications for mobile devices like
+                            smartphones and tablets. They typically specialize in one of the major mobile platforms,
+                            such as iOS (using Swift or Objective-C) or Android (using Java or Kotlin). Mobile app
+                            development can include both native app development and cross-platform app development using
+                            frameworks like React Native or Flutter.
+
+                            Desktop App Developer: Desktop app developers build applications that run on desktop
+                            operating systems like Windows, macOS, or Linux. They may use languages like C++, Java, C#,
+                            or Electron (which uses web technologies like HTML, CSS, and JavaScript).
+
+                            Cross-Platform App Developer: Cross-platform app developers create applications that can run
+                            on multiple platforms with a single codebase. This is often done using frameworks like React
+                            Native, Flutter, or Xamarin, which allow developers to write code in a single language and
+                            deploy it to different platforms.

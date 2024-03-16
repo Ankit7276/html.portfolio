@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Info1.html">
+    <script src="https://kit.fontawesome.com/25588e6c4b.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1>[Ankit <i class='bx bx-wink-smile' style="color: #ffa600;"></i>Dubey]</h1>
+                <ul id="sidemenu" style="list-style-type: disc;">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text ">
+                <p>Full Stack Developer.</p>
+                <h1>Hi, I'm <span>Ankit Dubey</span> from Bharat</h1>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------------about------------------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="list-style-type: disc;">
+                        <i class='bx bx-radio-circle-marked'></i>Name: Ankit Dubey
+                        <Br>
+                        <i class='bx bx-radio-circle-marked'></i>Father Name: krishnadhar Dubey
+                        <br>
+                        <i class='bx bx-radio-circle-marked'></i>Gender: male!
+                        <br>
+                        <i class='bx bx-radio-circle-marked'></i>Religion: Hindu!
+                        <br>
+                        <i class='bx bx-radio-circle-marked'></i>Marital status: Unmarred
+                        <br>
+                        <i class='bx bx-radio-circle-marked'></i>Languages known: English, Hindi,Marathi!
+                        <br>
+                        <i class='bx bx-radio-circle-marked'></i>Nationnality: Bharat!
+                        <br>
+                        <i class='bx bx-radio-circle-marked'></i>Mother tongue: Hindi!
+                        <br>
+                        <i class='bx bx-radio-circle-marked'></i>Hobbies: codeing, book reading, Gyming , playing
+                        Kabbadi!
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents" id="Skills">
+                        <ul style="list-style-type: disc;">
+                            <li><i class='bx bxs-send'></i>Web Developer <br> Using Tools: <br><i
+                                    class='bx bx-wifi-0'></i>Html <br> <i class='bx bx-wifi-0'></i>css <br><i
+                                    class='bx bx-wifi-0'></i>Jvava Script <br><i class='bx bx-wifi-0'></i>Python <br><i
+                                    class='bx bx-wifi-0'></i> PHP <br> <i class='bx bx-wifi-0'></i>My Sql<br>
+                                <i class='bx bxs-send'></i>App Developer <br> Using Tools<br><i
+                                    class='bx bx-wifi-0'></i>Android Studio<br><i class='bx bx-wifi-0'></i>Visual
+                                studio<br><i class='bx bx-wifi-0'></i>Fultter </span><br></p>
+                                <i class='bx bxs-send'></i>Poster Making <br>Using Tools<br> <i
+                                    class='bx bx-wifi-0'></i>Coral Draw <br><i class='bx bx-wifi-0'></i>Adobe
+                                Photoshop<br><i class='bx bx-wifi-0'></i>Adobe InDesign<br>
+                                <i class='bx bxs-send'></i>Business Card Designer<br>Using Tools <br> <i
+                                    class='bx bx-wifi-0'></i>Coral Draw<br><i class='bx bx-wifi-0'></i>Adobe
+                                Photoshop<br><i class='bx bx-wifi-0'></i>Adobe InDesign<br><br>
+                                <i class='bx bxs-send'></i>Logo Designer<br>Using Tools <br> <i
+                                    class='bx bx-wifi-0'></i>Coral Draw <br> <i class='bx bx-wifi-0'></i>Adobe
+                                Photoshop<br><i class='bx bx-wifi-0'></i>Adobe InDesign<br><br>
+                                <i class='bx bxs-send'></i>UI<br>Using tools<br><i class='bx bx-wifi-0'></i>Figma
+                            </li>
+
+                    </div>
+                    <!-- for hiding content -->
+                    <!-- <button onclick="hideElement()">Hide Element</button> -->
+
+
+
+                    <div class="tab-contents active-tab" id="Experience">
+                        <ul style="list-style-type: disc;">
+                            <li><span>Now Days Working with</span><br>Professional e-solutions (India) Pvt Ltd<br>Start:June 2023 To Continue...</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul style="list-style-type: disc;">
+                            <li><span><i class='bx bxs-send'></i>SSC</span><br>Maharashtra Board <br> Complete in 2018!
+                            </li>
+                            <li><span><i class='bx bxs-send'></i></i>HSC</span><br>Maharashtra Board <br> Complete in
+                                2020!</li>
+                            <li><span><i class='bx bxs-send'></i>Graduation of </span><br>R. D. National College
+                                <br>B.sc Computer Science<br> Complete in 2023!
+                            </li>
+                            <li><span><i class='bx bxs-send'></i> Post Graduation of </span><br>University of Mumbai
+                                Kalina
+                                <br>M.sc Computer Science<br>Pursuing!
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div id="chart-container"> -->
+        
+    </div>
+
+    <!-----------------------------services--------------------------------------------->
+    <div class="service" id="service">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web/App Developer</h2>
+                    <p>Web Developer:
+
+                        Front-End Developer: Front-end developers focus on creating the user interface and user
+                        experience of a website or web application. They work with HTML, CSS, and JavaScript to build
+                        the visual and interactive components that users see and interact with in their web
+                        browsers.
+
+                    </p>
+                    <a href="Info1.html">Learn more</a>
+
+                    <!-- <button onclick="myFunction()" id="myBtn1">Learn more</button> -->
+                </div>
+                <!-- <script>
+                    function myFunction() {
+                        var dots = document.getElementById("dots1");
+                        var moreText = document.getElementById("more1");
+                        var btnText = document.getElementById("myBtn1");
+
+                        if (dots.style.display === "none") {
+                            dots.style.display = "inline";
+                            btnText.innerHTML = "Learn more";
+                            moreText.style.display = "none";
+                        } else {
+                            dots.style.display = "none";
+                            btnText.innerHTML = "Learn Less";
+                            moreText.style.display = "inline";
+                        }
+                    }
+                </script> -->
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Logo/Poster Designer</h2>
+                    <p> We are seeking a talented and creative Logo Designer to join our team. As a Logo Designer,
+                        you will be responsible for conceptualizing and designing logos that visually represent our
+                        clients' brands and communicate their unique identity.
+                    </p>
+                    <a href="info2.html">Learn more</a>
+                    <!-- <button onclick="myFunction()" id="myBtn2">Learn more</button> -->
+                </div>
+
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Designer</h2>
+                    <p>UX (User Experience) Designer:
+                        A UX Designer focuses on the overall user experience of a digital product. Their goal is to make
+                        the product as user-friendly and efficient as possible, ensuring that it meets the needs and
+                        expectations of the target audience. Key responsibilities of a UX Designer include:
+
+                        User Research: Conducting user research to understand the needs, behaviors, and pain points of
+                        the target audience. This may involve surveys, interviews, and usability testing.
+                    </p>
+                    <a href="images/info3.html">Learn more</a>
+                    <!-- <button onclick="myFunction()" id="myBtn">Learn more</button> -->
+                </div>
+                <!-- <script>
+                    function myFunction() {
+                        var dots = document.getElementById("dots");
+                        var moreText = document.getElementById("more");
+                        var btnText = document.getElementById("myBtn");
+
+                        if (dots.style.display === "none") {
+                            dots.style.display = "inline";
+                            btnText.innerHTML = "Learn more";
+                            moreText.style.display = "none";
+                        } else {
+                            dots.style.display = "none";
+                            btnText.innerHTML = "Learn Less";
+                            moreText.style.display = "inline";
+                        }
+                    }
+                </script> -->
+
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------------portfolio----------------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/image1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet <br> consectetur
+                            adipisicing elit. Quia, exercitationem.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/image2.png">
+                    <div class="layer">
+                        <h3>Logo</h3>
+                        <p>Lorem ipsum dolor sit amet <br> consectetur
+                            adipisicing elit. Quia, exercitationem.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/image.png">
+                    <div class="layer">
+                        <h3>UI/UX for App</h3>
+                        <p>Lorem ipsum dolor sit amet <br> consectetur
+                            adipisicing elit. Quia, exercitationem.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!----------------------------------------------contact------------------------------------------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i> ankit7276260989@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 7276260989</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://github.com/login"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                    <a href="images/My New Resume(Ankit Dubey).pdf" Download class="btn btn2">Download cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Ankit. This is <i class="fa-solid fa-heart-pulse"></i> my Website</p>
+        </div>
+    </div>
+
+    <button id="scrollToTopButton"><i class='bx bx-up-arrow-alt'></i></button>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby9UG93YncFd25QaisSvDfroqyP2ApGqljyY4t1BaavOI1_p6W4pGZdbWdnmAzOUcig/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <!-- up button  -->
+
+    <script>
+        // Get a reference to the button
+        const scrollToTopButton = document.getElementById("scrollToTopButton");
+
+        // Function to scroll to the top of the page
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth" // You can also use "auto" for an instant scroll
+            });
+        }
+
+        // Function to control the visibility of the button
+        function toggleScrollButton() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollToTopButton.style.display = "block";
+            } else {
+                scrollToTopButton.style.display = "none";
+            }
+        }
+
+        // Add a scroll event listener to show/hide the button
+        window.addEventListener("scroll", toggleScrollButton);
+
+        // Add a click event listener to the button
+        scrollToTopButton.addEventListener("click", scrollToTop);
+
+    </script>
+    <!-- for hiding  -->
+    <script>
+        function hideElement() {
+            var element = document.getElementById("Skills");
+            element.style.display = "none";
+        }
+    </script>
+
+    <!-- pi chart java script -->
+    <script>
+    const data = [
+            { label: "Html", percentage: 90 },
+            { label: "css", percentage: 70 },
+            { label: "Jvava Script", percentage: 50 },
+            { label: "Python", percentage: 50 },
+            { label: "My Sql", percentage: 50 },
+            { label: "Coral Draw", percentage: 95 },
+            { label: "Adobe Photoshop", percentage: 60 },
+            { label: "Figma", percentage: 65 },
+            { label: "Visual studio", percentage: 50 },
+            { label: "Android Studio", percentage: 52 }
+            // Add more items as needed
+        ];
+
+        const chartContainer = document.getElementById("chart-container");
+
+        data.forEach((item) => {
+            const itemContainer = document.createElement("div");
+            itemContainer.classList.add("item");
+            itemContainer.innerHTML = `
+                <div>${item.label}</div>
+                <div class="bar-chart">
+                    <div class="progress" style="width: ${item.percentage}%;">${item.percentage}%</div>
+                </div>
+            `;
+            chartContainer.appendChild(itemContainer);
+        });
+
+        // Function to animate the progress bars
+        const animateBars = () => {
+            const progressBars = document.querySelectorAll(".progress");
+            progressBars.forEach((bar) => {
+                const currentWidth = parseInt(bar.style.width) || 0;
+                const targetWidth = currentWidth === 100 ? 0 : 100; // Reset at 100%
+                bar.style.width = targetWidth + "%";
+                bar.textContent = targetWidth + "%"; // Update the text
+            });
+        };
+
+        // Start the animation
+        setInterval(animateBars, 2000); // Adjust the interval as needed (2 seconds in this example)
+    </script>
+
+</body>
+
+</html>
